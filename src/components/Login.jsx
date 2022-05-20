@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Message from "./Message";
 import image  from "./image/0001.png"
+// import {logo}
 
 const Login = () => {
 
