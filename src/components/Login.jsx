@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Message from "./Message";
 import image  from "./image/0001.png"
+import LoginGoogle from './LoginGoogle';
 // import {logo}
 
 const Login = () => {
@@ -99,6 +100,7 @@ const Login = () => {
           </button>
         </form>
     {check && <Message/>}
+    <LoginGoogle/>
     
      
     </div>

@@ -6,6 +6,7 @@ import ProtectedRoute from "./routes/ProtectedRoute";
 import Footer from "./components/Footer";
 import Login from "./components/Login";
 import Message from "./components/Message";
+import LoginGoogle from "./components/LoginGoogle";
 import "./css/estilos.css";
 import "font-awesome/css/font-awesome.css";
 
@@ -26,6 +27,7 @@ const App=()=>{
 <Login/>
 <Message/>
 <LoginScreen/>
+<LoginGoogle/>
 </BrowserRouter>
 
 
